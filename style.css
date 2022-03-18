@@ -1,0 +1,40 @@
+.container{
+    width: 85%; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: rgb(78, 175, 255);
+    border-radius: 10px;
+    gap: 100px;
+}
+.title{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+.col{
+    border-radius: 10px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    margin: 20px;
+    width: 100%;
+    background: white;
+    padding: 20px;
+}
+.col h4{
+    background: rgb(146, 219, 253);
+    color: black;
+    padding: 15px 20px;
+    margin: 30px 20px;
+    border-radius: 10px;
+    cursor: move;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.col .dragging{
+    background-color: rgba(245, 245, 192, 0.5);
+}
+.col h4:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
